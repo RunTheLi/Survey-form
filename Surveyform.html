@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title">Survey</h1>
+  <p id="description">Please fill out this form with the required information</p>
+  <p>The social media survey aims to explore its impact on mental health and confidence.<br>
+     Questions assess usage frequency, perception of content, its relation to personal confidence levels,<br>
+      and emotional management.</p>
+  <form id="survey-form">
+    <label id="name-label">Name
+<input placeholder="enter your name" required id="name" type="text"></input></label>
+    <label id="email-label">Email
+<input placeholder="enter your emnail" required id="email" type="email"></input></label>    
+    <label id="number-label">Number
+<input placeholder="Age" id="number" type="number" min="0" max="10"></input>
+</label> 
+<br>
+<h3 class="time">how much time have you spent on social media (per day)</h3>
+    <select id="dropdown">
+    <option>Please select</option>
+      <option>1-2 hours</option>
+       <option>2-3 hours</option>
+        <option>3-4 hours</option>
+       <option>4-5 hours</option>
+      <option>more than five hours</option>
+    </select>
+    <br>
+    <h3 class="use">What do you use social media for?</h3>
+    <select id="dropdown">
+    <option>Please select</option>
+      <option>messaging</option>
+       <option>Reel</option>
+        <option>game ?</option>
+       <option>news</option>
+      <option>others</option>
+    </select>
+    <h4>What platform do you mostly use?</h4>
+   Facebook <input class="inline" type="checkbox" value="checkbox" />
+   Tiktok <input class="inline" type="checkbox" value="checkbox"/>
+   Instagram <input class="inline" type="checkbox" value="checkbox"/>
+   Twitter (X) <input class="inline" type="checkbox" value="checkbox"/>
+   others <input class="inline" type="checkbox" value="checkbox" />
+
+    <textarea type="textarea" placeholder="text"></textarea>
+
+    <button id="submit" type="submit">Submit</button> 
+  </form>
+</body>
+</html>
